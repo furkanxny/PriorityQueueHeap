@@ -42,7 +42,7 @@ public class House {
      * @return New House object with deep copied values.
      */
     public House deepCopy() {
-        return new House(this);
+        return new House(this.owner, this.value);
 
     }
 
